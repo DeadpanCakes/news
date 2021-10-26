@@ -1,6 +1,8 @@
+import "./Article.css"
+
 const Article = () => {
   return (
-    <article>
+    <article className="mainArticle">
       <h1>
         Ancient lake in Mars's Gale crater may have actually been a small pond
       </h1>
