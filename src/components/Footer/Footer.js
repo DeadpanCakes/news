@@ -3,10 +3,12 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="pageFooter">
-      <form>
-        <h3>Sign up to our newsletters</h3>
-        <p>Enter your email address to get started</p>
-        <input placeholder="Your email" />
+      <form className="newsLetterForm">
+        <h2 className="formHeader">Sign up to our newsletters</h2>
+        <label for="newsletterField">
+          Enter your email address to get started
+        </label>
+        <input id="newsletterField" placeholder="Your email" />
         <button>SIGN UP</button>
       </form>
       <nav>

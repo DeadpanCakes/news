@@ -1,3 +1,29 @@
 .pageFooter {
   grid-area: footer;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsLetterForm {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-areas:
+    "header header header"
+    "label  input  submit";
+  width: 60%;
+  margin-left: 20%;
+  justify-content: start;
+}
+
+.formHeader {
+  grid-area: header;
+  justify-self: start;
+  align-self: start;
+}
+
+#newsletterField {
+    height: 25px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid black;
 }
