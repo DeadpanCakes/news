@@ -6,7 +6,7 @@ const Article = () => {
       <h1>
         Ancient lake in Mars's Gale crater may have actually been a small pond
       </h1>
-      <ul>
+      <ul className="socialNav">
         <li>Facebook</li>
         <li>Twitter</li>
         <li>Whatsapp</li>
@@ -103,7 +103,7 @@ const Article = () => {
             </li>
           </ul>
         </h4>
-        <ul>
+        <ul className="socialNav">
           <li>Facebook</li>
           <li>Twitter</li>
           <li>Whatsapp</li>

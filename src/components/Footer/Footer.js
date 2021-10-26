@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <div>
         <h3>FOLLOW US</h3>
-        <ul>
+        <ul className="socialNav">
           <li>Facebook</li>
           <li>Twitter</li>
           <li>Linkedin</li>
