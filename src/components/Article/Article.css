@@ -1,3 +1,13 @@
 .mainArticle {
     grid-area: content;
+    text-align: start;
+    padding: 20px;
+    width: 70%;
+    justify-self: end;
+}
+
+@media (max-width: 1000px) {
+    .mainArticle {
+        width: 100%;
+    }
 }
