@@ -13,7 +13,7 @@
 @media (max-width: 1000px) {
   .App {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "content" "recommended" "footer";
+    grid-template-areas: "header" "content" "sidebar" "recommended" "footer";
   }
 }
 
