@@ -1,6 +1,14 @@
 import RecommendedListing from "./RecommendedListing";
+import "./Recommended.css";
 
-const articleArr = [];
+const articleArr = [
+  {
+    key: 0,
+    img: { desc: "a butterfly", src: null },
+    category: "health",
+    title: "Butterflies good for health!?",
+  },
+];
 
 const Recommended = () => {
   return (
