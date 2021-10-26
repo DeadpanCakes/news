@@ -31,7 +31,7 @@
 @media (max-width: 1000px) {
   .newsLetterForm {
     margin: 0;
-    justify-self: center;
+    align-self: center;
   }
   .newsLetterForm label {
     display: none;
