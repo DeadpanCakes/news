@@ -141,3 +141,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+h3 {
+  font-weight: bold;
+}
