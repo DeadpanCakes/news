@@ -10,6 +10,13 @@
     "footer      footer";
 }
 
+@media (max-width: 1200px) {
+  .App {
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "content" "recommended" "footer";
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
