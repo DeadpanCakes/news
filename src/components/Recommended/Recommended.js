@@ -12,7 +12,7 @@ const articleArr = [
 
 const Recommended = () => {
   return (
-    <section>
+    <section className="recommended">
       <h2>MORE FROM NEW SCIENTIST</h2>
       {articleArr.map((article) => {
         return (
