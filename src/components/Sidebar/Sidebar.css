@@ -1,0 +1,25 @@
+.sideBar {
+    text-align: start;
+}
+
+.sideBarCat {
+    display: flex;
+}
+
+.sideBarCat>* {
+    flex: 1;
+    text-align: center;
+    background: lightgray;
+    margin: 2px;
+}
+
+.topArticle {
+    display: flex;
+    justify-content: space-between;
+    background: lightgray;
+    margin: 5px
+}
+
+.articleRank {
+    color: skyblue
+}
