@@ -1,18 +1,19 @@
-import "./Header.css"
+import "./Header.css";
 
 const Header = () => {
   return (
     <header className="pageHeader">
-      <hgroup>
+      <p className="menu">Menu</p>
+      <hgroup className="newsletterBanner">
         <h3>NEWSETTERS</h3>
         <h4>Sign up to read our regular email newsletters</h4>
       </hgroup>
-      <a href="https://www.newscientist.com/">
+      <a href="https://www.newscientist.com/" className="logo">
         <img alt="The NewScientist logo"></img>
       </a>
-      <button>SUBSCRIBE AND SAVE 69%</button>
-      <nav>
-        <ul>
+      <button className="subscribeBtn">SUBSCRIBE AND SAVE 69%</button>
+      <nav className="headerNav">
+        <ul className="headerLinks">
           <li>
             <a href="https://www.newscientist.com/section/news/">News</a>
           </li>
@@ -41,10 +42,12 @@ const Header = () => {
               More
             </a>
           </li>
+          <li>Shop</li>
+          <li>Courses</li>
+          <li>Events</li>
+          <li>Tours</li>
+          <li>Jobs</li>
         </ul>
-      </nav>
-      <nav>
-        <ul></ul>
       </nav>
       <a href="https://www.newscientist.com/login/">
         <button>Sign In</button>

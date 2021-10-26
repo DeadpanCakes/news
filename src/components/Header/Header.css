@@ -1,3 +1,61 @@
 .pageHeader {
-    grid-area: header;
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "newsletter logo logo logo subscribeBtn";
+  width: 60%;
+  margin-left: 20%;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.subscribeBtn {
+  grid-area: subscribeBtn;
+}
+
+.headerNav {
+  grid-column-start: span 3;
+}
+
+.headerLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+  .pageHeader {
+      grid-template-columns: auto 1fr auto auto;
+      grid-template-areas: "menu logo profile search";
+      width: 100%;
+      margin: 0;
+  }
+  .menu {
+      display: flex;
+  }
+  .logo {
+      grid-column-start: span 1;
+  }
+  .newsletterBanner {
+    display: none;
+    order: 10;
+  }
+  .headerNav {
+    display: none;
+    order: 11;
+  }
+  .signInBtn {
+    display: none;
+    order: 12;
+  }
+  .subscribeBtn {
+      grid-column: 2 / span 1;
+      justify-self: center;
+      align-self: center;
+  }
 }
