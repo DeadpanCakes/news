@@ -22,8 +22,18 @@
 }
 
 #newsletterField {
-    height: 25px;
-    width: 300px;
-    border: none;
-    border-bottom: 2px solid black;
+  height: 25px;
+  width: 300px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+@media (max-width: 1000px) {
+  .newsLetterForm {
+    margin: 0;
+    justify-self: center;
+  }
+  .newsLetterForm label {
+    display: none;
+  }
 }

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="pageFooter">
       <form className="newsLetterForm">
         <h2 className="formHeader">Sign up to our newsletters</h2>
-        <label for="newsletterField">
+        <label htmlFor="newsletterField">
           Enter your email address to get started
         </label>
         <input id="newsletterField" placeholder="Your email" />
