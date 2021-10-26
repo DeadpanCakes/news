@@ -9,7 +9,7 @@ const Footer = () => {
           Enter your email address to get started
         </label>
         <input id="newsletterField" placeholder="Your email" />
-        <button>SIGN UP</button>
+        <button onClick={(e) => {e.preventDefault()}}>SIGN UP</button>
       </form>
       <nav>
         <ul>
