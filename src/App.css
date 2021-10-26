@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto;
+  grid-template-areas:
+    "header      header"
+    "content     sidebar"
+    "recommended recommended"
+    "footer      footer";
 }
 
 .App-logo {
