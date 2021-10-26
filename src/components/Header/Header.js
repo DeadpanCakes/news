@@ -1,6 +1,8 @@
+import "./Header.css"
+
 const Header = () => {
   return (
-    <header>
+    <header className="pageHeader">
       <hgroup>
         <h3>NEWSETTERS</h3>
         <h4>Sign up to read our regular email newsletters</h4>
