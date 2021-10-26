@@ -1,6 +1,8 @@
+import "./Footer.css";
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className="pageFooter">
       <form>
         <h3>Sign up to our newsletters</h3>
         <p>Enter your email address to get started</p>
@@ -39,10 +41,10 @@ const Footer = () => {
       <div>
         <h3>FOLLOW US</h3>
         <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Linkedin</li>
-            <li>Pintrest</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Linkedin</li>
+          <li>Pintrest</li>
         </ul>
       </div>
     </footer>
