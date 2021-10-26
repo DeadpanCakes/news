@@ -8,6 +8,8 @@
 
 @media (max-width: 1000px) {
     .mainArticle {
+        padding: 0;
+        justify-self: stretch;
         width: 100%;
     }
 }
