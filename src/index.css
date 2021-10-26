@@ -160,3 +160,15 @@ figcaption {
   font-size: 0.8em;
   font-weight: bold;
 }
+
+button {
+  background: #00b3e5;
+  border: none;
+  min-width: 200px;
+  max-width: 240px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #0185aa;
+}
