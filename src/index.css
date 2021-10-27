@@ -172,3 +172,8 @@ button {
 button:hover {
   background: #0185aa;
 }
+
+hr {
+  border: 1px solid gray;
+  width: 80%;
+}
