@@ -182,3 +182,7 @@ hr {
   border: 1px solid gray;
   width: 80%;
 }
+
+br {
+  margin-bottom: 10px;
+}
