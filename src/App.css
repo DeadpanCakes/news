@@ -8,12 +8,15 @@
     "content     sidebar"
     "recommended recommended"
     "footer      footer";
+    letter-spacing: 0.1em;
+    word-spacing: 0.5rem;
 }
 
 @media (max-width: 1000px) {
   .App {
     grid-template-columns: 1fr;
     grid-template-areas: "header" "content" "sidebar" "recommended" "footer";
+    margin: 10px;
   }
 }
 
