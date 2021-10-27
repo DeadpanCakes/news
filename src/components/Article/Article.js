@@ -1,4 +1,4 @@
-import "./Article.css"
+import "./Article.css";
 import galeCraterSrc from "../../assets/galeCrater.webp";
 
 const Article = () => {
@@ -44,19 +44,20 @@ const Article = () => {
         </a>{" "}
         for more than eight years, and while early observations suggested the
         entire crater may once have been filled with water, a new analysis
-        implies that it just had a series of ponds instead. Previous analyses of
-        data from Curiosity have relied heavily on a measure called the chemical
-        index of alteration to determine how rocks were weathered over time.
+        implies that it just had a series of ponds instead. <br />
+        Previous analyses of data from Curiosity have relied heavily on a
+        measure called the chemical index of alteration to determine how rocks
+        were weathered over time.
         <a href="https://www.clays.space/">Joseph Michalski</a>at the University
         of Hong Kong and his colleagues have suggested that because this measure
         was developed for use on Earth, it may not be valid in the extreme
-        Martian climate. Instead, they analysed the concentrations of various
-        compounds that are expected to change based on different types of
-        weathering over time. They found that some of the layers of rock
+        Martian climate. <br /> Instead, they analysed the concentrations of
+        various compounds that are expected to change based on different types
+        of weathering over time. They found that some of the layers of rock
         Curiosity examined did interact with water at some point in their past,
-        but more are likely to have formed outside of the water.
+        but more are likely to have formed outside of the water. <br />
       </p>
-      <section>
+      <section className="readMore">
         Read More:{" "}
         <a href="https://www.newscientist.com/article/2284210-microbes-burping-methane-on-mars-may-be-right-next-to-nasa-rover/">
           Microbes burping methane on Mars may be right next to NASA rover
@@ -66,19 +67,21 @@ const Article = () => {
         “Over hundreds of metres of strata, it seems that the only layers that
         are demonstrably lacustrine [formed in a lake] are the lower few
         metres,” says Michalski. “Of the rocks visited by the rover… the
-        fraction that is demonstrably lacustrine is something like 1 per cent.”
+        fraction that is demonstrably lacustrine is something like 1 per cent.”{" "}
+        <br />
         These rocks were mostly in the lowest few metres of{" "}
         <a href="https://www.newscientist.com/article/2271407-marss-crust-may-have-sucked-up-most-of-the-planets-water/">
           sediments in the crater
         </a>
         , suggesting the lake was not nearly as deep or extensive as we thought.
         “There was likely a small lake or more likely a series of small lakes in
-        the floor of Gale crater, but these were shallow ponds,” says Michalski.
+        the floor of Gale crater, but these were shallow ponds,” says Michalski.{" "}
+        <br />
         The rocks that didn’t form in water appeared to be volcanic, so
         Michalski says that they may have formed out of ash from volcanic
         eruptions after the water in Gale crater had dried up. Observations by
         other Mars missions have hinted that these sediments were deposited by
-        wind, not water, so this may solve that mismatch.
+        wind, not water, so this may solve that mismatch. <br />
       </p>
       <section>
         Journal reference: Science Advances,

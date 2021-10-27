@@ -6,6 +6,12 @@
     justify-self: end;
 }
 
+.readMore {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+}
+
 @media (max-width: 1000px) {
     .mainArticle {
         padding: 0;
