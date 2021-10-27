@@ -1,4 +1,5 @@
 import "./Article.css"
+import galeCraterSrc from "../../assets/galeCrater.webp";
 
 const Article = () => {
   return (
@@ -26,7 +27,7 @@ const Article = () => {
         </h3>
       </section>
       <figure>
-        <img alt="The Gale crater on mars"></img>
+        <img alt="The Gale crater on mars" src={galeCraterSrc}></img>
         <figcaption>
           <p>
             The rocks inside Gale crater hint there may not have been a large
