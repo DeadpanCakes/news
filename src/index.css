@@ -167,6 +167,7 @@ button {
   min-width: 200px;
   max-width: 240px;
   border-radius: 3px;
+  color: white
 }
 
 button:hover {
