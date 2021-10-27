@@ -8,8 +8,7 @@
     "content     sidebar"
     "recommended recommended"
     "footer      footer";
-    letter-spacing: 0.1em;
-    word-spacing: 0.5rem;
+    word-spacing: 0.3rem;
 }
 
 @media (max-width: 1000px) {
