@@ -186,3 +186,8 @@ hr {
 br {
   margin-bottom: 10px;
 }
+
+a {
+  color: #00b3e5;
+  text-decoration: none;
+}
