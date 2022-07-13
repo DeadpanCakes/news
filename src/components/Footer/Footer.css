@@ -41,10 +41,6 @@
 .siteInfoLinks > * {
   margin: 5px;
 }
-.siteInfoLinks > *::after,
-.siteInfoLinks > *::before {
-  content: " | ";
-}
 
 .cookiesBtn {
   margin: 20px;
